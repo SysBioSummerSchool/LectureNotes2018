@@ -1,0 +1,6 @@
+# example and template file for XPP
+# applied to (modified) normal form of pitchfork bifurcation 
+dA/dt = k1*A-k2*A^3
+param k1=-1,k2=1
+init A=-1
+done
